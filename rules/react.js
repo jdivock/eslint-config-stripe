@@ -22,6 +22,7 @@ module.exports = {
     'react/jsx-no-duplicate-props': 2,
     // Enforce PascalCase for JSX components
     'react/jsx-pascal-case': 2,
+    'react/jsx-tag-spacing': 2,
     // Disallow use of dangerous JSX properties
     'react/no-danger': 2,
     // Prevent direct mutation of this.state
@@ -30,6 +31,7 @@ module.exports = {
     'react/prefer-stateless-function': 0,
     // Don't require prop types
     'react/prop-types': 0,
+    'react/react-in-jsx-scope': 2,
     // Deprecated rule
     'react/require-extension': 0,
   },
