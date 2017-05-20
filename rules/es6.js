@@ -12,6 +12,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    'arrow-parens': [2, 'always'],
     // Allow any usage of braces with arrow functions
     'arrow-body-style': 0,
     // Require spaces around arrow functions

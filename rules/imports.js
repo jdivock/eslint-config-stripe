@@ -9,6 +9,7 @@ module.exports = {
   },
   plugins: ['import'],
   rules: {
+    'import/extensions': 0,
     // Require imports before everything else
     'import/imports-first': 2,
     // Ensure named imports correspond to a named export in the remote file
