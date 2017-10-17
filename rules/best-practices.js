@@ -6,7 +6,7 @@ module.exports = {
     curly: 2,
     // Switch statements must have a default case.
     'default-case': 2,
-  // Require dot notation for property access unless they are snake_cased.
+    // Require dot notation for property access unless they are snake_cased.
     'dot-notation': [2, {allowPattern: '^_*[A-Za-z0-9]+(_[A-Za-z0-9]+)+$'}],
     // Disallow == and != in favor of === and !==
     eqeqeq: 2,
