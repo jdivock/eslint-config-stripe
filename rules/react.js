@@ -7,17 +7,19 @@ module.exports = {
     ecmaVersion: 6,
     ecmaFeatures: {
       jsx: true,
-      experimentalObjectRestSpread: true,
     },
     sourceType: 'module',
   },
   plugins: ['react'],
   rules: {
     // Enforce event handler naming conventions
-    'react/jsx-handler-names': [2, {
-      eventHandlerPrefix: 'handle',
-      eventHandlerPropPrefix: 'on',
-    }],
+    'react/jsx-handler-names': [
+      2,
+      {
+        eventHandlerPrefix: 'handle',
+        eventHandlerPropPrefix: 'on',
+      },
+    ],
     // Disallow duplicate props
     'react/jsx-no-duplicate-props': 2,
     // Enforce PascalCase for JSX components
